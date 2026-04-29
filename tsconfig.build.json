@@ -1,7 +1,12 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
-    "rootDir": "src"
+    "rootDir": "src",
+    "noUnusedLocals": false,
+    "noUnusedParameters": false
   },
-  "exclude": ["test/**/*.ts", "evals/**/*.ts"]
+  "exclude": [
+    "test/**/*.ts",
+    "evals/**/*.ts"
+  ]
 }
